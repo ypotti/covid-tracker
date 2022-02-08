@@ -18,9 +18,9 @@ class Header extends Component {
     const data = await fetchData();
     // console.log(data);
     this.setState({
-      confirmed: data.confirmed.value,
-      deaths: data.deaths.value,
-      recovered: data.recovered.value,
+      confirmed: data.confirmed,
+      deaths: data.deaths,
+      recovered: data.recovered,
       lastUpdate: new Date(data.lastUpdate).toDateString(),
     });
   }
