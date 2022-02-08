@@ -1,7 +1,8 @@
 import "./index.css";
 
-const CovidGraph = () => {
-  const url = "#some URL#";
+const CovidGraph = (props) => {
+  const { data } = props;
+  console.log(data);
   return <div>Graph Here</div>;
 };
 
