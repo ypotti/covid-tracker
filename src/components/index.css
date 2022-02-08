@@ -1,0 +1,74 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.heading-container {
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 1em;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 768px;
+  justify-content: flex-start;
+  padding: 0.5em;
+}
+.box {
+  padding: 0.7em;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 0em;
+  margin-left: 0em;
+}
+.red-border {
+  border-bottom: 4px solid red;
+}
+.blue-border {
+  border-bottom: 4px solid blue;
+}
+.green-border {
+  border-bottom: 4px solid green;
+}
+.box-head {
+  font-weight: 500;
+}
+.box-number {
+  font-weight: bold;
+}
+.box-date {
+  font-weight: 600;
+  color: gray;
+}
+.box-desc {
+  font-weight: 200;
+  color: gray;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 700px) {
+  .cards-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .box {
+    margin-bottom: 0em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+}
