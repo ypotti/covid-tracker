@@ -1,5 +1,4 @@
 import "./index.css";
-import { fetchData } from "../api/api";
 import "bootstrap/dist/css/bootstrap.min.css";
 import corona from "../Assests/corona.svg";
 import CountUp from "react-countup";

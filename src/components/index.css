@@ -37,13 +37,13 @@
   margin-left: 0em;
 }
 .red-border {
-  border-bottom: 4px solid red;
+  border-bottom: 4px solid #FF073A;
 }
 .blue-border {
-  border-bottom: 4px solid blue;
+  border-bottom: 4px solid #007BFF;
 }
 .green-border {
-  border-bottom: 4px solid green;
+  border-bottom: 4px solid #28A745;
 }
 .box-head {
   font-weight: 600;
@@ -72,6 +72,14 @@
   font-size: 1rem;
   padding: 0.5em;
 }
+.bar-container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
 @media screen and (min-width: 700px) {
   .cards-container {
     flex-direction: row;
