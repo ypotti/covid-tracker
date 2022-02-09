@@ -1,3 +1,4 @@
+[![Azure Static Web Apps CI/CD](https://github.com/ypotti/covid-tracker/actions/workflows/azure-static-web-apps-salmon-coast-0a3e10d10.yml/badge.svg?branch=master)](https://github.com/ypotti/covid-tracker/actions/workflows/azure-static-web-apps-salmon-coast-0a3e10d10.yml)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
